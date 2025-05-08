@@ -1,4 +1,4 @@
-package tallerOPP.Punto1CuentaBancaria;
+package tallerOPP;
 
 public class Main {
     public static void main(String[] args) {

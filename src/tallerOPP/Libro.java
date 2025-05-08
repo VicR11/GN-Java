@@ -1,4 +1,4 @@
-package tallerOPP.Punto1CuentaBancaria;
+package tallerOPP;
 
 public class Libro {
     private String titulo;
