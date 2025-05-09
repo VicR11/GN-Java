@@ -62,10 +62,12 @@ public class Pedido {
         }
     }
 
-    public void calcularDescuento(double porcentaje){
+    public void calcularDescuento(int porcentaje){
         if(porcentaje > 0 && porcentaje < 101){
             System.out.println("Aplicando "+porcentaje+"% de descuento");
             total -= total*porcentaje/100;
+        }else {
+            System.out.println("Descuento invalido");
         }
     }
 

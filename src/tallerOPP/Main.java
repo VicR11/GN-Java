@@ -49,6 +49,10 @@ public class Main {
         pedido1.agregarProducto("aceite",8990);
         pedido1.mostrarPedido();
 
+        pedido1.calcularDescuento(10);
+        pedido1.mostrarPedido();
+        pedido1.calcularDescuento(120);
+
 
     }
 }
